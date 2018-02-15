@@ -23,10 +23,10 @@
 </p>
 
 
-<form action="https://docs.google.com/forms/d/1OFT7WUxcjQno8CT-QjhMpEZK7nctTuNEiKIUQalYak4/formResponse" method="POST" onsubmit="">
+<form action="#your_google_form_url" method="POST" onsubmit="">
 
-<label for="entry_1583958707"><h3>Source</h3></label>
-<select name="entry.1583958707" id="entry_1583958707">
+<label for="#form_elementID_source"><h3>Source</h3></label>
+<select name="form.elementID_source" id="form_elementID_source">
 	<option value="Felurian">Felurian</option>
 	<option value="Miran">Miran</option>
 	<option value="Titiana">Titiana</option>
@@ -35,8 +35,8 @@
 	<option value="Wand" selected>Wand</option>
 </select>
 
-<label for="entry_961400766"><h3>Spell Level</h3></label>
-<select name="entry.961400766" id="entry_961400766">
+<label for="form_elementID_spelllevel"><h3>Spell Level</h3></label>
+<select name="form.elementID_spelllevel" id="form_elementID_spelllevel">
 	<option value="0" selected>0</option>
 	<option value="1">1</option>
 	<option value="2">2</option>
@@ -50,20 +50,20 @@
 	<option value="N/A">Class or N/A</option>
 </select>
 
-<label for="entry_564942114"><h3>Spell Name</h3>
-<input type="text" name="entry.564942114" value="" id="entry_564942114" placeholder="Magic Missile" required>
+<label for="form_elementID_spellname"><h3>Spell Name</h3>
+<input type="text" name="form.elementID_spellname" value="" id="form_elementID_spellname" placeholder="Magic Missile" required>
 
-<label for="entry_339236736"><h3>Class</h3></label>
+<label for="form_elementID"><h3>Class</h3></label>
 <ul class="checkboxes">
-	<li><label><input type="checkbox" name="entry.323278248" value="Cleric / Oracle" id="group_323278248_1">Cleric / Oracle</label></li>
-	<li><label><input type="checkbox" name="entry.323278248" value="Wizard / Sorcerer" id="group_323278248_2">Wizard / Sorcerer</label></li>
-	<li><label><input type="checkbox" name="entry.323278248" value="Ranger / Druid" id="group_323278248_3">Ranger / Druid</label></li>
-	<li><label><input type="checkbox" name="entry.323278248" value="Bard" id="group_323278248_4">Bard</label></li>
-	<li><label><input type="checkbox" name="entry.323278248" value="__other_option__" id="group_323278248_5">Other:</label><input type="text" name="entry.323278248.other_option_response" value="" id="entry_323278248_other_option_response"></li>
+	<li><label><input type="checkbox" name="form.elementID_spellname" value="Cleric / Oracle" id="form_groupID_1">Cleric / Oracle</label></li>
+	<li><label><input type="checkbox" name="form.elementID_spellname" value="Wizard / Sorcerer" id="form_groupID_2">Wizard / Sorcerer</label></li>
+	<li><label><input type="checkbox" name="form.elementID_spellname" value="Ranger / Druid" id="form_groupID_3">Ranger / Druid</label></li>
+	<li><label><input type="checkbox" name="form.elementID_spellname" value="Bard" id="form_groupID_4">Bard</label></li>
+	<li><label><input type="checkbox" name="form.elementID_spellname" value="__other_option__" id="form_groupID_5">Other:</label><input type="text" name="entry.323278248.other_option_response" value="" id="entry_323278248_other_option_response"></li>
 </ul>
 
-<label for="entry_1357197955"><h3>Casting Time</h3></label>
-<select name="entry.1357197955" id="entry_1357197955">
+<label for="form_elementID_castingtime"><h3>Casting Time</h3></label>
+<select name="form.elementID_castingtime" id="form_elementID_castingtime">
 	<option value="Standard Action" selected>Standard Action</option>
 	<option value="Full Round">Full Action</option>
 	<option value="Swift Action">Swift Action</option>
@@ -73,13 +73,13 @@
 </select>
 
 <label><h3>Duration</h3></label>
-<input type="text" name="entry.1261230852" value="" id="entry_1261230852" placeholder="Instantaneous">
+<input type="text" name="form.elementID_duration" value="" id="form_elementID_duration" placeholder="Instantaneous">
 
-<label for="entry_1721810680"><h3>Dice Needed</h3></label>
-<input type="text" name="entry.1721810680" value="" id="entry_1721810680" placeholder="1d8+1/level (max +5)">
+<label for="form_elementID_dice"><h3>Dice Needed</h3></label>
+<input type="text" name="form.elementID_dice" value="" id="form_elementID_dice" placeholder="1d8+1/level (max +5)">
 
-<label for="entry_272596823"><h3>Range</h3></label>
-<select name="entry.272596823" id="entry_272596823">
+<label for="form_elementID_range"><h3>Range</h3></label>
+<select name="form.elementID_range" id="form_elementID_range">
 	<option value="Personal" selected>Personal</option>
 	<option value="Touched">Touched</option>
 	<option value="Close">Close (25 ft. + 5 ft./2 levels)</option>
@@ -93,36 +93,36 @@
 </select>
 
 <label><h3>Save Type</h3></label>
-<select name="entry.86191844" id="entry_86191844">
+<select name="form.elementID_save" id="form_elementID_save">
 	<option value="None" selected>None</option>
 	<option value="Fort">Fortitude</option>
 	<option value="Ref">Reflex</option>
 	<option value="Will">Will</option>
 </select>
 
-<label for="entry_74857103"><h3>Spell Resistance</h3></label>
-<select name="entry.74857103" id="entry_74857103">
+<label for="form_elementID_sr"><h3>Spell Resistance</h3></label>
+<select name="form.elementID_sr" id="form_elementID_sr">
 	<option value="No">No</option>
 	<option value="Yes" selected>Yes</option>
 </select>
 
-<label for="entry_1884732273"><h3>Special Effects</h3>
+<label for="form_elementID_special"><h3>Special Effects</h3>
 <ul class="checkboxes">
-	<li><label><input type="checkbox" name="entry.147665909" value="Class" id="group_147665909_1">Class Ability</label></li>
-	<li><label><input type="checkbox" name="entry.147665909" value="Good" id="group_147665909_2">Good Aligned Spell</label></li>
-	<li><label><input type="checkbox" name="entry.147665909" value="Evil" id="group_147665909_3">Evil Aligned Spell</label></li>
-	<li><label><input type="checkbox" name="entry.147665909" value="Living Target" id="group_147665909_4">Target Must Be Living</label></li>
-	<li><label><input type="checkbox" name="entry.147665909" value="Spell-like" id="group_147665909_5">Spell-like Ability</label></li>
-	<li><label><input type="checkbox" name="entry.147665909" value="Supernatural" id="group_147665909_6">Supernatural Ability</label></li>
-	<li><label><input type="checkbox" name="entry.147665909" value="__other_option__" id="group_147665909_7" >Other:</label><input type="text" name="entry.147665909.other_option_response" value="" id="entry_147665909_other_option_response"></li>
+	<li><label><input type="checkbox" name="form.elementID_special" value="Class" id="form_groupID_special1">Class Ability</label></li>
+	<li><label><input type="checkbox" name="form.elementID_special" value="Good" id="form_groupID_special2">Good Aligned Spell</label></li>
+	<li><label><input type="checkbox" name="form.elementID_special" value="Evil" id="form_groupID_special3">Evil Aligned Spell</label></li>
+	<li><label><input type="checkbox" name="form.elementID_special" value="Living Target" id="form_groupID_special4">Target Must Be Living</label></li>
+	<li><label><input type="checkbox" name="form.elementID_special" value="Spell-like" id="form_groupID_special5">Spell-like Ability</label></li>
+	<li><label><input type="checkbox" name="form.elementID_special" value="Supernatural" id="form_groupID_special6">Supernatural Ability</label></li>
+	<li><label><input type="checkbox" name="form.elementID_special" value="__other_option__" id="form_groupID_special7" >Other:</label><input type="text" name="entry.147665909.other_option_response" value="" id="entry_147665909_other_option_response"></li>
 </ul>
 
-<label for="entry_1271085438"><h3>Description</h3></label>
-<textarea name="entry.1271085438" id="entry_1271085438" rows="5" cols="80" placeholder="Be brief but accurate."></textarea>
+<label for="form_elementID_description"><h3>Description</h3></label>
+<textarea name="form.elementID" id="form_elementID" rows="5" cols="80" placeholder="Be brief but accurate."></textarea>
 
-<input type="hidden" name="draftResponse" value="[,,&quot;2942658163526562292&quot;]">
+<input type="hidden" name="draftResponse" value="[,,&quot;formID&quot;]">
 <input type="hidden" name="pageHistory" value="0">
-<input type="hidden" name="fbzx" value="2942658163526562292">
+<input type="hidden" name="fbzx" value="formID">
 <br /><br />
 <input type="submit" name="submit" value="Submit">
 </form>
