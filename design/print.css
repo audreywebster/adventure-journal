@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+@media print {
+
+/*	Printer-Friendly Design for Pathfinder Game	*/
+
+/* Fonts from Google - google.com/webfonts	*/
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC|PT+Mono|Metamorphous|Ubuntu|Trocchi);
+
+
+/*	Overall Format & Styling	*/
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	color: #000;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.0em;
+	background: transparent;
+	}
+
+/*	Text Links Format	*/
+a:link, a:active {
+	color: #039;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+a:visited {
+	color: #639;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+a:hover {
+	color: #069;
+	text-decoration: underline;
+	font-weight: bold;
+	}
+
+/*	Standard Style Elements	*/
+em {
+	color: #333;
+	font-family: 'Trocchi', serif;
+	}
+
+strong {
+	color: #300;
+	font-weight: bold;
+	}
+
+tt {
+	color: #666;
+	font-family: 'PT Mono', sans-serif;
+	text-transform: uppercase;
+	}
+
+p {
+	margin: 0em 0em 1em;
+	display: block;
+	text-align: left;
+	line-height: 1.3em;
+	}
+
+img {
+	display: none;
+	}
+
+/*	Headings Formats	*/
+h1 {
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 1.4em;
+	font-family: 'Metamorphous', cursive;
+	}
+
+h2 {
+	color: #000;
+	margin: 0 auto;
+	padding: 0.5em;
+	text-align: left;
+	font-size: 1em;
+	font-family: 'Metamorphous', cursive;
+	}
+
+h3 {
+	color: #000;
+	margin: 0 auto;
+	padding: 0.25em 0 0;
+	text-align: left;
+	font-size: 0.5em;
+	font-family: 'IM Fell English SC', serif;
+	}
+
+/* Lists Formatting */
+ul {
+	list-style: square;
+	margin-left: 1.5em;
+	}
+
+ul li {
+	margin: 1em 0;
+	}
+
+/*	Special Display Classes	*/
+.anchors p {
+	display: none;
+	}
+
+.top_anchor {
+	display: none;
+	}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+	}
+
+.inline {
+	display: inline;
+	}
+
+.block {
+	display: block;
+	}
+
+/* Form Elements */
+.checkboxes {
+	list-style: none;
+	}
+
+select, option, textarea {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.0em;
+	margin-left: 1.5em;
+	}
+
+input[type=checkbox], input[type=radio] {
+	margin: 1em 1em 1em 1.5em;
+	height: auto;
+	}
+
+input[type=text] {
+	margin: 0.5em 0 0 0.5em;
+	padding: 0.25em;
+	font-size: 0.8em;
+	}
+
+input[type=submit] {
+	display: none;
+	}
+
+
+/*	Navigation IDs	*/
+#nav {
+	display: none;
+	}
+
+#nav .selected {
+	display: none;
+	}
+
+#nav ul {
+	display: none;
+	}
+
+#nav li {
+	display: none;
+	}
+
+#nav a, #footer a {
+	display: none;
+	}
+
+#nav a:link, #nav a:visited, #nav a:active, #footer a:link, #footer a:visited, #footer a:active {
+	display: none;
+	}
+
+#nav a:hover, #footer a:hover {
+	display: none;
+	}
+
+/*	Footer IDs	*/
+#footer {
+	display: none;
+	}
+
+#footer p {
+	display: none;
+	}
+
+/*	Enclosure ID	*/
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border: none;
+	}
+
+/*	Primary Content Box	*/
+.content {
+	width: auto;
+	text-align: left;
+	display: block;
+	border: none;
+	margin: 0;
+	padding: 0;
+	}
+
+
+/*	Right Side Displays	*/
+.character {
+	display: none;
+	}
+
+.character p {
+	display: none;
+	}
+
+.cash {
+	float: right;
+	display: block;
+	margin: 0 0 0.5em 0.5em;
+	padding-left: 2em;
+	border-left: 1px solid #bbb;
+	}
+
+.cash p {
+	display: block;
+	width: auto;
+	text-align: left;
+	margin: 0 1.5em;
+	padding: 0.5em 0;
+	font-size: 0.8em;
+	font-family: 'Metamorphous', cursive;
+	}
+
+.cash label {
+	font-family: 'Metamorphous', cursive;
+	}
+
+.cash td, .cash tr {
+	font-size: 1em;
+	font-family: 'Metamorphous', cursive;
+	}
+
+/*	Table Formatting	*/
+div[id^="Miran"] div, div[id^="Titiana"] div, div[id^="Felurian"] div, div[id^="Spellbook"] div, div[id^="Loot"] div {
+	border: none;
+	margin: 0;
+	width: auto;
+	z-index: 1;
+	padding: 0 0 0.5em;
+	}
+
+div[id^="Gold"] th {
+	display: none !important;
+	z-index: 1;
+	}
+
+div[id^="Gold"] div, tr[id^="Gold"] tr, td[id^="Gold"] td, table[id^="Gold"] table {
+	display: inline-block !important;
+	margin: 0 1em;
+	padding: 0;
+	border: none;
+	font-size: 1.0em;
+	}
+
+table, div[id^="Miran"] table, div[id^="Titiana"] table, div[id^="Felurian"] table, div[id^="Spellbook"] table, div[id^="Loot"] table {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+
+th, div[id^="Miran"] th, div[id^="Titiana"] th, div[id^="Felurian"] th, div[id^="Spellbook"] th, div[id^="Loot"] th  {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-family: 'IM Fell English SC', serif;
+	padding: 0.1em;
+	display: table-cell;
+	background-color: transparent;
+	background: -webkit-linear-gradient(transparent, transparent) !important; /* Safari */
+	background: -o-linear-gradient(transparent, transparent) !important; /* Opera 11.6 to 12.0 */
+  	background: -moz-linear-gradient(transparent, transparent) !important; /* Firefox 3.6 to 15 */
+ 	background: linear-gradient(transparent, transparent) !important;
+	border-bottom: 1px solid #bbb;
+	color: #000;
+	}
+
+td, div[id^="Miran"] td, div[id^="Titiana"] td, div[id^="Felurian"] td, div[id^="Spellbook"] td, div[id^="Loot"] td {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 0.1em;
+	display: table-cell;
+	background-color: transparent;
+	border-bottom: 1px solid #bbb;
+	margin: 0;
+	color: #000;
+	}
+
+}
